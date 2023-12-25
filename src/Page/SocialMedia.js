@@ -8,6 +8,7 @@ const SocialMediaFrame = () => (
         </div>
 
         <div className="col-12">
+            {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
             <iframe
                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=500&height=550&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                 width="500"

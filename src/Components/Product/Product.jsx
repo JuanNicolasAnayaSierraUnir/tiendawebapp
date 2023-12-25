@@ -3,6 +3,7 @@ import Item from '../../Models/ProductModel'; // Importa el modelo
 import carousel1 from "../../Image/Carrusel1.jpg"
 import carousel3 from "../../Image/Carrusel3.jpg"
 import GroupButton from "../General/GroupButton/GroupButton";
+import useCounter from "../../Custom";
 const Product = ({ images }) => {
 
     const itemsData = [
