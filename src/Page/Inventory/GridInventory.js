@@ -1,4 +1,3 @@
-// src/components/ProductTable.js
 import React, {useState} from 'react';
 import Item from "../../Models/ProductModel";
 import carousel1 from "../../Image/Carrusel1.jpg";
@@ -22,9 +21,10 @@ const ProductTable = () => {
         setItemsData(updatedList);
     };
 
+ 
     return (
         <div className="card">
-            <div className="card-header text-center">
+            <div className="card-header text-center mt-1">
                 Lista de Productos
             </div>
             <div className="card-body text-center align-content-center">
@@ -74,3 +74,4 @@ const ProductTable = () => {
 };
 
 export default ProductTable;
+
