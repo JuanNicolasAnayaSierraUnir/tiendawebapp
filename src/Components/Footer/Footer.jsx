@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import Facebook from '../../Image/facebook.png'
-import Logos from '../Icons/ImgIcons'
+
 
 const Footer = () => {
     return (

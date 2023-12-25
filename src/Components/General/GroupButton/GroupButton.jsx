@@ -1,8 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import useCounter from "../../../Custom";
 
-const GroupButton = ({initialValue}) => {
-    const [value, setValue] = useState(initialValue);
+const GroupButton = () => {
 
     const { count, increment, decrement } = useCounter(0, 1);
 

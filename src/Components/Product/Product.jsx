@@ -1,9 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import Item from '../../Models/ProductModel'; // Importa el modelo
 import carousel1 from "../../Image/Carrusel1.jpg"
 import carousel3 from "../../Image/Carrusel3.jpg"
 import GroupButton from "../General/GroupButton/GroupButton";
-import useCounter from "../../Custom";
 const Product = ({ images }) => {
 
     const itemsData = [
@@ -42,7 +41,7 @@ const Product = ({ images }) => {
                         <label><b>Precio Unitario:</b> ${Item.unitPrice}</label>
                     </div>
                     <div className="mt-3">
-                    <GroupButton initialValue={Item.amount}></GroupButton>
+                    <GroupButton></GroupButton>
                     </div>
 
                 </div>

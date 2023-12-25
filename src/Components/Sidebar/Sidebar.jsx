@@ -14,6 +14,7 @@ const Sidebar = () => {
                 </div>
                 <ul className="list-unstyled components">
                     <li>
+                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                         <a href=""> <Link to="/">Noticias</Link></a>
                         <a href="Home"> <Link to="/Home">Inicio</Link></a>
                         <a href="Products"> <Link to="/Products">Productos</Link></a>
